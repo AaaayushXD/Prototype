@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>1st Prototype</title>
+    <link rel="stylesheet" href="style.css" />
+
+  </head>
+  <body>
+    <header>
+      <div class="aboveNav">
+        <div>
+          <img
+            src="https://images.freecreatives.com/wp-content/uploads/2015/04/logo033.png"
+            alt="logo"
+            class="logo"
+          />
+        </div>
+      </div>
+      <nav id="nav" role="navigation">
+        <a href="#nav" title="Show navigation">Show navigation</a>
+        <a href="#" title="Hide navigation">Hide navigation</a>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li>
+            <a href="/" aria-haspopup="true"><span>Blog</span></a>
+            <ul>
+              <li><a href="/">first</a></li>
+              <li><a href="/">second</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="/" aria-haspopup="true"><span>Services</span></a>
+            <ul>
+              <li><a href="/">free installation</a></li>
+              <li><a href="/">easy</a></li>
+              <li><a href="/">Secure</a></li>
+            </ul>
+          </li>
+          <li><a href="/">About</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="bannerPage">
+        <div class="overlay"></div>
+        <img
+          src="https://i0.wp.com/calmatters.org/wp-content/uploads/2020/08/surveillance-camera.jpg?resize=1200%2C708&ssl=1"
+          alt=""
+          class="banner"
+        />
+        <div class="bannerInfo">
+          <p class="bannerText">Solid solution for Home and Office</p>
+          <h1 class="bannerHeading">Secure Home and Office</h1>
+          <p class="bannerText">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique,
+            inventore?
+          </p>
+          <button type="button" class="bannerBtn">Our Service</button>
+          <button type="button" class="bannerBtn" id="secondBannerBtn">
+            Get in Touch
+          </button>
+        </div>
+      </div>
+
+      <div class="about-us">
+        <section class="aboutContent">
+          <p class="title">About Us</p>
+          <h2 class="contentTitle">Get CCTV solution for your Home</h2>
+          <p class="body">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis
+            ullam rerum praesentium dolor voluptatem voluptate fugit, enim
+            officia, a cumque labore commodi eveniet? Aliquid quasi odit
+            consequatur cupiditate esse facere!
+          </p>
+          <ul>
+            <div class="leftList">
+              <li>Easy to install</li>
+              <li>Fast service</li>
+              <li>Good Customer service</li>
+            </div>
+            <div class="rightList">
+              <li>Variety of option</li>
+              <li>Night Vision</li>
+              <li>4k Camera</li>
+            </div>
+          </ul>
+        </section>
+        <section class="aboutImgCont">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf2m2bo8hmRGESLovPKqEqXNGQ6aApJodHfA"
+            alt="cctv"
+            class="aboutImg"
+          />
+
+          <img
+            src="https://2.wlimg.com/product_images/bc-full/dir_84/2519696/cctv-camera-installation_s_21842_46860.jpg"
+            alt="cctv"
+            class="aboutImg"
+          />
+        </section>
+      </div>
+
+      <div class="services">
+        <p class="title">Services</p>
+        <h2 class="contentTitle">What we Provide</h2>
+        <div class="serviceCards">
+          <div class="card">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf2m2bo8hmRGESLovPKqEqXNGQ6aApJodHfA"
+              alt="service"
+              class="serviceImg"
+            />
+            <h3>Private and Personal Security</h3>
+            <p class="number">Service no 1</p>
+          </div>
+          <div class="card">
+            <img
+              src="https://www.shutterstock.com/image-photo/cctv-installation-wizard-concept-service-600w-1773628412.jpg"
+              alt="service"
+              class="serviceImg"
+            />
+            <h3>Free Installation</h3>
+            <p class="number">Service no 2</p>
+          </div>
+          <div class="card">
+            <img
+              src="https://2.wlimg.com/product_images/bc-full/dir_84/2519696/cctv-camera-installation_s_21842_46860.jpg"
+              alt="service"
+              class="serviceImg"
+            />
+            <h3>Update and Maintanance</h3>
+            <p class="number">Service no 3</p>
+          </div>
+        </div>
+      </div>
+      <div class="faq-main-container">
+               <h1>Frequently Asked Questions</h1>
+    <div class="faq-container">
+      <div class="faq">
+        <h3 class="faq-title">
+          Why do you need CCTV?
+        </h3>
+
+        <p class="faq-text">
+          They make up everything
+        </p>
+
+        <button class="faq-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+
+      <div class="faq">
+        <h3 class="faq-title">
+          What are the advantages of our CCTV?
+        </h3>
+        <p class="faq-text">
+          So many
+        </p>
+        <button class="faq-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      
+      <div class="faq">
+        <h3 class="faq-title">
+          What are the features of our CCTV?
+        </h3>
+        <p class="faq-text">
+            It will take days.
+        </p>
+        <button class="faq-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      
+      <div class="faq">
+        <h3 class="faq-title">
+          What is the price of your best seller?
+        </h3>
+        <p class="faq-text">
+          Exactly what you are expecting 
+        </p>
+        <button class="faq-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      
+      <div class="faq">
+        <h3 class="faq-title">
+          Where are you located?
+        </h3>
+        <p class="faq-text">
+          In everyone's heart.
+        </p>
+        <button class="faq-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+    </div>
+      </div>
+
+      <div class="contact-us">
+<section id="contact">
+  
+  <h1 class="section-header title">Contact Us</h1>
+  
+  <div class="contact-wrapper card">
+  
+  <!-- Left contact page --> 
+    
+    <form id="contact-form" class="form-horizontal" role="form">
+       
+      <div class="form-group">
+        <div class="col-sm-12">
+          <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="col-sm-12">
+          <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required>
+        </div>
+      </div>
+
+      <textarea class="form-control" rows="5" placeholder="MESSAGE" name="message" required></textarea>
+      
+      <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+        <div class="alt-send-button">
+          <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
+        </div>
+      
+      </button>
+      
+    </form>
+    
+  <!-- Left contact page --> 
+    
+      <div class="direct-contact-container">
+
+        <ul class="contact-list">
+          <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">City, State</span></i></li>
+          
+          <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="#" title="Give me a call">1233421321</a></span></i></li>
+          
+          <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="#" title="Send me an email">aayush@gmail.com</a></span></i></li>
+          
+        </ul>
+
+        <hr>
+        <ul class="social-media-list">
+          <li><a href="#" target="_blank" class="contact-icon">
+            <i class="fa fa-github" aria-hidden="true"></i></a>
+          </li>
+          <li><a href="#" target="_blank" class="contact-icon">
+            <i class="fa fa-codepen" aria-hidden="true"></i></a>
+          </li>
+          <li><a href="#" target="_blank" class="contact-icon">
+            <i class="fa fa-twitter" aria-hidden="true"></i></a>
+          </li>
+          <li><a href="#" target="_blank" class="contact-icon">
+            <i class="fa fa-instagram" aria-hidden="true"></i></a>
+          </li>       
+        </ul>
+        <hr>
+
+        <div class="copyright">&copy; ALL OF THE RIGHTS RESERVED</div>
+
+      </div>
+    
+  </div>
+  
+</section>  
+  
+        </div>
+      </div>
+    </main>
+    <footer>
+        <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h6>About</h6>
+            <p class="text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo ipsum in numquam eius error, iste sed tempore magnam rerum maiores ex dolore earum nam officia minima voluptates impedit laborum totam obcaecati consequuntur! Dolores, vero rem? Assumenda, sapiente. Doloremque at rem, ipsam est optio nulla cupiditate officiis quod sed provident commodi?</p>
+          </div>
+
+    
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Quick Links</h6>
+            <ul class="footer-links">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Contribute</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+
+            </ul>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2023 All Rights Reserved by 
+         <a href="#">Aayush</a>.
+            </p>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+              <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+            </ul>
+          </div>
+        </div>
+      </div>
+</footer>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
+
+
